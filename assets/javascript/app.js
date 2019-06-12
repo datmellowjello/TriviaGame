@@ -42,7 +42,16 @@ var questions = [
     correctAnswer: "c",
     }
     },
-
+    { 
+        question: "Who invented the 360 flip?",
+    answers: {
+        a: "Rodney Mullen",
+        b: "Tony Hawk",
+        c: "Daewon Song",
+        d: "Lance Mountain",
+    correctAnswer: "a",
+    }
+    },
 
 ]
 
