@@ -5,3 +5,8 @@
 
 // call star quiz funtion 
 
+// need array for questions
+
+
+// need variables to store wins , losses and results
+
