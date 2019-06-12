@@ -20,3 +20,8 @@ var quizContainer = $("#quiz")
 var resultsContainer = $("#results")
 var submit = $("#submit")
 
+
+
+
+$(document).on("click", "#submit", showResults() );
+$(document).on("click", ".#startbtn", startQuiz () );
