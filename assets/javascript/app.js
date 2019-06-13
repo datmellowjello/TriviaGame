@@ -1,35 +1,43 @@
 $(document).ready(function () {
     console.log("ready!");
     $("#quiz").hide();
+    $("#results").hide();
     $("#startbtn").on("click", function () {
         startQuiz()
     });
     $("#submit").on("click", function () {
 
         checkAnswers();
-
+        results ();
 
     });
-    var correctAnswers = 0;
+   var correctAnswers = 0;
     var incorrectAnswers = 0;
-    function results () {
-        $("#quiz").hide();
-        $("#splashScreen").hide();
-        
-    }
     function checkAnswers() {
-        var radioValue = $("input[value='1']:checked").val();
+
+        var radioValue = $("input[value='0']:checked").val();
         if (radioValue === 1) {
             correctAnswers++;
+
             console.log(correctAnswers);
         }
-        else {
-            incorrectAnswers++;
-            console.log(incorrectAnswers);
+        if (radioValue === 0) {
+            correctAnswers++;
+
+            console.log(correctAnswers);
         }
 
     };
+ 
+    function results () {
+        $("#quiz").hide();
+        $("#splashScreen").hide();
+        $("#results").show();
+        $(".correct").append(correctAnswers);
+        $(".incorrect").append(incorrectAnswers);
 
+
+    }
     function timesUp() {
         $("#quiz").hide();
         $("#splashScreen").hide();
