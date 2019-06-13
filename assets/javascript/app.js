@@ -19,11 +19,11 @@ $("#startbtn").on("click", function () {
     };
     function startQuiz () {
         startTimer();
+        $("#splashScreen").hide();
     };
 
 
 });
-// $(document).on("click", "#submit", showResults() );
 
 
 
