@@ -1,6 +1,6 @@
 $(document).ready(function () {
     console.log("ready!");
-
+$("#quiz").hide();
 $("#startbtn").on("click", function () {
     startQuiz ()
 }); 
@@ -18,7 +18,9 @@ $("#startbtn").on("click", function () {
         
     };
     function startQuiz () {
+        $("#quiz").show();
         startTimer();
+
         $("#splashScreen").hide();
     };
 

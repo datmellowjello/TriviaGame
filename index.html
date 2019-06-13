@@ -1,57 +1,118 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-      <div id="splashScreen">
-          <div class="jumbotron">
-              <h1 class="display-3">Skateboard Trivia Game!</h1>
-              <p class="lead">Press start to begin!</p>
-              <hr class="my-2">
-              <p class="lead">
-                <a name="startbtn" id="startbtn" class="btn btn-success" role="button">Start</a>
-            </p>
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="splashScreen">
+    <div class="jumbotron">
+      <h1 class="display-3">Skateboard Trivia Game!</h1>
+      <p class="lead">Press start to begin!</p>
+      <hr class="my-2">
+      <p class="lead">
+        <a name="startbtn" id="startbtn" class="btn btn-success" role="button">Start</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="quiz">
+    <div id="timer"></div>
+    <div class="form-check form-check-inline">
+      <div id="question1">
+        <label class="form-check-label">
+          <div class="row">
+            <br>
+            <label for="questionOne">
+              <h2>Who did the first 900?</h2>
+            </label>
+            <br> </div>
+          <div class="row">
+            <input type="radio" name="one"> Tony Hawk
+            <input type="radio" name="one"> Bob Burnquist
+            <input type="radio" name="one"> Steve Caballero
+            <input type="radio" name="one"> Ryan Sheckler
           </div>
-        </div>
-    
-        <div id="quiz">
-          <div id="timer">
-            <div class="form-check form-check-inline">
-            <div id="question1">
-              <label class="form-check-label">
-                <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> asdlfkj
-                <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> Display value
-                <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> Display value
-                <input class="form-check-input" type="checkbox" name="" id="" value="checkedValue"> Display value
+          <div class="row">
+            <br>
+            <label for="questionOne">
+              <h2>Who invented the 360 flip?</h2>
+            </label>
+            <br> </div>
+          <div class="row">
+            <input type="radio" name="one"> Tony Hawk
+            <input type="radio" name="one"> Bob Burnquist
+            <input type="radio" name="one"> Steve Caballero
+            <input type="radio" name="one"> Ryan Sheckler
+          </div>
+          <div class="row">
+            <br>
+            <label for="questionOne">
+              <h2>"What skateboard deck company does Chris Cole ride for?</h2>
+            </label>
+            <br> </div>
+          <div class="row">
+            <input type="radio" name="one"> Zero
+            <input type="radio" name="one"> Mystery
+            <input type="radio" name="one"> Baker
+            <input type="radio" name="one"> BirdHouse
+          </div>
+          <div class="row">
+            <br>
+            <label for="questionOne">
+              <h2>What year was Powell Peralta founded?</h2>
+            </label>
+            <br> </div>
+          <div class="row">
+            <input type="radio" name="one"> Tony Hawk
+            <input type="radio" name="one"> Bob Burnquist
+            <input type="radio" name="one"> Steve Caballero
+            <input type="radio" name="one"> Ryan Sheckler
+          </div>
+          <div class="row">
+            <br>
+            <label for="questionOne">
+              <h2>Who did the first 900?</h2>
+            </label>
+            <br> </div>
+          <div class="row">
+            <input type="radio" name="one"> Tony Hawk
+            <input type="radio" name="one"> Bob Burnquist
+            <input type="radio" name="one"> Steve Caballero
+            <input type="radio" name="one"> Ryan Sheckler
+          </div>
+        </label></div>
+    </div>
+  </div>
+  </div>
 
-              </label></div>
-            </div>
-            </div>
-            <h1-6>Answer the Questions before the time runs out!</h1-6>
+  <h1-6>Answer the Questions before the time runs out!</h1-6>
 
 
-            <button id="submit">Submit</button>
-        </div>
+  <button id="submit">Submit</button>
+  </div>
 
-        <div id="results">
+  <div id="results">
 
 
-        </div>
+  </div>
 
-       
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script> 
-    <script src="assets/javascript/app.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="assets/javascript/app.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
