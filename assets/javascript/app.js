@@ -15,19 +15,18 @@ $(document).ready(function () {
     var incorrectAnswers = 0;
     function checkAnswers() {
 
-        var radioValue = $("input[value='0']:checked").val();
-        if (radioValue === 1) {
-            correctAnswers++;
-
-            console.log(correctAnswers);
-        }
-        if (radioValue === 0) {
-            correctAnswers++;
-
-            console.log(correctAnswers);
-        }
-
-    };
+    $('.aQuestion').each(function(){
+        if($(this).find('input[type="radio"]:checked').val() > 0)
+          {
+             correctAnswers++;
+          }
+        else
+          {
+             incorrectAnswers++;
+          }    
+      });
+      
+   };
  
     function results () {
         $("#quiz").hide();
