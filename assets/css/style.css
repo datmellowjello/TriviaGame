@@ -1,4 +1,33 @@
 body {
-    background-image: url("assets\images\tws_wedwallpaper_0811_07.png");
+    
+    background-image: url("https://skateboarding.transworld.net/wp-content/uploads/andrew-reynolds-wallpaper/tws_wedwallpaper_0811_07.jpg");
+    
+}
+#splashScreen {
+margin: 10%;
+margin-top: 5%;
+}
+.display-3 {
+    margin-left: 15%;
+}
 
+.btn {
+    width: 300px;
+    height: 200px;
+    font-size: 50pt;
+}
+.lead {
+    margin-left: 35%;
+}
+.quizcontainer {
+    background-color: lightblue;
+    width: 100%;
+}
+#question1 {
+    margin: auto;
+}
+.timerctn {
+    text-align: center;
+    font-size: 55pt;
+    color: darkred;
 }
