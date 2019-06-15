@@ -64,7 +64,18 @@ $(document).ready(function () {
 
         $("#splashScreen").hide();
     };
+    $('#resetbtn').on("click", function () {
+     
+       $("#results").hide();
+        $("#quiz").show();
+        $(".correct").empty();
+        $('.incorrect').empty();
+        
+        startTimer (60);
 
+        
+
+    });
 
 });
 
